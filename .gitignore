@@ -30,3 +30,42 @@
 *.exe
 *.out
 *.app
+
+# C++ specific
+*.swp
+*.swo
+*~
+*.bak
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+*.venv/
+*.log
+*.pot
+*.pyd
+*.spec
+*.ipynb_checkpoints/
+*.pytest_cache/
+
+# CMake specific
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+Makefile
+
+# IDE specific (e.g., Visual Studio Code, CLion, etc.)
+.vscode/
+.idea/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.opendb
+
+# Other
+*.log
